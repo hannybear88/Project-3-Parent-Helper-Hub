@@ -112,16 +112,6 @@ This app  allows owners of private home chargers to rent out their personal EV c
 ![Technologies](https://img.shields.io/badge/npm%20package-mongoose-purple?style=flat-square&logo=npm) 
 ![Technologies](https://img.shields.io/badge/Database-MongoDB-yellow?style=flat-square&logo=mongoDB) 
 
-
-
-
-
-
-
-
-
-
-
 ## Challenges
 - Trim error in reservation and station javascript
 
@@ -135,8 +125,6 @@ This app  allows owners of private home chargers to rent out their personal EV c
 - Google map API key - has to appear in html, not in dotenv (apply for restricting api key)
 
 
-
-
 ## Successes 
 
 - Connecting Google Maps API to application 
@@ -144,10 +132,6 @@ This app  allows owners of private home chargers to rent out their personal EV c
 - Having various icon types for different plug in and level type chargers registered
 - Defining the flow and linkages between the various stages 
 - Connecting the station registration 
-
-
-
-
 
 # Usage
 
