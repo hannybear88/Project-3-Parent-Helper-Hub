@@ -1,5 +1,5 @@
 # -Project-3-EV-Charge-N-Go
-Project #3 test test test 
+Project #3 
 
 # Project Description
 This app  allows single parents access resources that they need in one app. 
