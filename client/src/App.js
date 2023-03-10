@@ -1,8 +1,7 @@
 import React from 'react';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Profile from './pages/Profile';
-import Welcome from './pages/Welcome';
+// import Profile from './pages/Profile';
+// import Welcome from './pages/Welcome';
 import Navbar from './components/Navbar';
 import {
   ApolloClient,
@@ -37,7 +36,7 @@ function App() {
        <Router>
       <>
         <Navbar />
-        <Routes>
+        {/* <Routes>
         <Route 
             path='/' 
             element={<Profile />} 
@@ -50,7 +49,7 @@ function App() {
             path='*'
             element={<h1 className='display-2'>Wrong page!</h1>}
           />
-        </Routes>
+        </Routes> */}
       </>
     </Router>
   </ApolloProvider>
