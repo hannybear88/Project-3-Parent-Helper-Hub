@@ -1,6 +1,8 @@
 import React from 'react';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Profile from './pages/Profile';
+import Welcome from './pages/Welcome';
 import Navbar from './components/Navbar';
 import {
   ApolloClient,
