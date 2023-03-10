@@ -3,41 +3,41 @@ const { User } = require('../models');
 const { signToken } = require('../utils/auth');
 
 const resolvers = {
-  // Query: {
-  //   // retrieve the logged in user from the context and find the user details in the database
-  //   me: async (parent, args, context) => {
-  //     if (context.user) {
-  //       return User.findOne({ _id: context.user._id });
-  //     }
-  //     throw new AuthenticationError('You need to be logged in!');
-  //   },
-  // },
+  Query: {
+    // retrieve the logged in user from the context and find the user details in the database
+    me: async (parent, args, context) => {
+      if (context.user) {
+        return User.findOne({ _id: context.user._id });
+      }
+      throw new AuthenticationError('You need to be logged in!');
+    },
+  },
 
-  // Mutation: {
-  //   login: async (parent, { email, password }) => {
-  //     const user = await User.findOne({ email });
+  Mutation: {
+    login: async (parent, { email, password }) => {
+      const user = await User.findOne({ email });
 
-  //     if (!user) {
-  //       throw new AuthenticationError('No user with this email found!');
-  //     }
+      if (!user) {
+        throw new AuthenticationError('No user with this email found!');
+      }
 
-  //     const correctPw = await user.isCorrectPassword(password);
+      const correctPw = await user.isCorrectPassword(password);
 
-  //     if (!correctPw) {
-  //       throw new AuthenticationError('Incorrect password!');
-  //     }
+      if (!correctPw) {
+        throw new AuthenticationError('Incorrect password!');
+      }
 
-  //     const token = signToken(user);
-  //     return { token, user };
-  //   },
+      const token = signToken(user);
+      return { token, user };
+    },
 
-  //   addUser: async (parent, { username, email, password }) => {
-  //     const user = await User.create({ username, email, password });
-  //     const token = signToken(user);
+    addUser: async (parent, { username, email, password }) => {
+      const user = await User.create({ username, email, password });
+      const token = signToken(user);
       
-  //     return { token, user};
-  //   },
-  // },
+      return { token, user};
+    },
+  },
 
 
 };
