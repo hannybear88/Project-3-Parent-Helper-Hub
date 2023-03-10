@@ -38,11 +38,11 @@ function App() {
         <Routes>
         <Route 
             path='/' 
-            element={<SearchBooks />} 
+            element={<Profile />} 
           />
           <Route 
             path='/saved' 
-            element={<SavedBooks />} 
+            element={<Welcome />} 
           />
           <Route 
             path='*'
