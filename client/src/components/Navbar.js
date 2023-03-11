@@ -134,7 +134,11 @@ export default function PrimarySearchAppBar() {
           <Badge badgeContent={4} color="error">
             <MailIcon />
           </Badge>
+          <Badge badgeContent={4} color="error">
+            <MailIcon />
+          </Badge>
         </IconButton>
+        <p>Messages</p>
         <p>Messages</p>
       </MenuItem>
       <MenuItem>
@@ -147,7 +151,7 @@ export default function PrimarySearchAppBar() {
             <NotificationsIcon />
           </Badge>
         </IconButton>
-        <p>Notifications</p>
+        <p>SignUp</p>
       </MenuItem>
       <MenuItem onClick={handleProfileMenuOpen}>
         <IconButton
