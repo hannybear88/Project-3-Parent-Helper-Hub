@@ -76,7 +76,6 @@ function ChildRegistrationForm() {
 }
 
 export default ChildRegistrationForm;
-=======
 // import React, { useState } from "react";
 
 // function ChildRegistrationForm() {

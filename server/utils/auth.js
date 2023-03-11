@@ -10,7 +10,6 @@ module.exports = {
   authMiddleware: function ({req}) {
     // get token from header
     let token = req.headers.authorization;
-
     // trim off "Bearer" from the token string and return only the token
     if (req.headers.authorization) {
       token = token.split(' ').pop().trim();
