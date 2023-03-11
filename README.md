@@ -231,8 +231,8 @@ You can find more of our work on our GitHub, [hannybear88](https://github.com/ha
 
 Hannah Chung: 
     
-    Focus: Login, Logout, Signup, App.js, auth, mutations, queries, App
-    Support: README, Presentation, Trello
+    Focus: Login, Logout, App.js, auth, mutations, queries, App
+    Support: Research on APIs, Signup, README, Presentation, Trello
 
 Triana Deguzman: 
     
@@ -242,17 +242,17 @@ Triana Deguzman:
 Christen Lorber: 
 
     Focus: Overall theme and styling
-    Support: App, ChildForm, LoginForm, Navbar, SignupForm, Welcome, Profile
+    Support: App, Child Form, LoginForm, Navbar, Signup Form, Welcome, Profile
 
 Fernando Maldonado: 
     
     Focus: Welcome page
-    Support: 
+    Support: Research on APIs
 
 Heidi Wu: 
     
     Focus: Server Side
-    Support: Navbar, auth, mutations, queries
+    Support: Navbar, Auth, Mutations, Queries
 
 Team Collaboration:
     
