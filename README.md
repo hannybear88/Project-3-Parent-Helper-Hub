@@ -1,4 +1,4 @@
-# -Project-3-EV-Charge-N-Go
+# -Project-3-Parent-Helper-Hub
 Project #3 
 
 # Project Description
