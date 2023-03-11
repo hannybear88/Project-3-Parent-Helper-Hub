@@ -1,9 +1,11 @@
 # -Project-3-Parent-Helper-Hub
 Project #3 
 
+
 # Project Description
 This app  allows single parents access resources that they need in one app. 
  
+
 # Table of Contents
 * [User Story](#User-Story)
 * [Acceptance Criteria](#Acceptance-Criteria) 
@@ -25,7 +27,6 @@ This app  allows single parents access resources that they need in one app.
 - I WANT an Parent Helper Hub site to support the single parents .... 
 - SO THAT 
 - AND SO THAT
-
 
 
 # Acceptance Criteria
@@ -66,7 +67,6 @@ This app  allows single parents access resources that they need in one app.
 - THEN I am logged out of the site
 
 
-
 # Motivation for Development
 - We all came to an agreement that single parents resources aren't easily accessible. This application allows single parents be able to search for resources easily and
 
@@ -79,7 +79,9 @@ This app  allows single parents access resources that they need in one app.
     - Working together via zooms, meetings, slack, etc to help with sudo coding and/or brainstorming how to effectively move ahead in the process
 - Set team goals and reasses as needed throughout
 
+
 ## Technologies Used 
+
 ![Technologies](https://img.shields.io/badge/Trello-F7DF1E?style=for-the-badge&logo=trello&logoColor=purple) was used to help define tasks, schedule, and ownership throughout the different phases of the project.
 
 ![Technologies](https://img.shields.io/badge/HTML5-F7DF1E?style=for-the-badge&logo=html5&logoColor=blue)
@@ -108,12 +110,15 @@ This app  allows single parents access resources that they need in one app.
 ![Technologies](https://img.shields.io/badge/npm%20package-mongoose-purple?style=flat-square&logo=npm) 
 ![Technologies](https://img.shields.io/badge/Database-MongoDB-yellow?style=flat-square&logo=mongoDB) 
 
+
 ## Challenges
+
 - 
 - 
 - 
 - 
 - 
+
 
 ## Successes 
 
@@ -124,6 +129,7 @@ This app  allows single parents access resources that they need in one app.
 - 
 
 # Usage
+
 
 The following screenshots show examples of the interaction and options presented to the user when application is initiated. 
 
@@ -181,9 +187,13 @@ Logout:
 
 ![showing where logout is located](./public/assets/images/Logout.png) -->
 
+
 # Goals for Future Development
 
+
+
 ## Short Term Goals 
+
 - 
 - 
 - 
@@ -191,8 +201,10 @@ Logout:
 - 
 - 
 - 
+
 
 ## Long Term Goals
+
 - 
 - 
 - 
@@ -201,12 +213,16 @@ Logout:
 - 
 - 
 
+
 # Support
+
 If you need support or have any questions about the repo, please [open an issue](https://github.com/hannybear88/Project-3-Parent-Helper-Hub/issues) or contact us via email at parenthelperhub@gmail.com. 
+
 
 # Deployed Site
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)]()
+
 
 You can find more of our work on our GitHub, [hannybear88](https://github.com/hannybear88/), [heidiwu3388](https://github.com/heidiwu3388), [TrianaD](https://github.com/TrianaD), [](), [fmaldmed](https://github.com/fmaldmed).
 
@@ -215,8 +231,8 @@ You can find more of our work on our GitHub, [hannybear88](https://github.com/ha
 
 Hannah Chung: 
     
-    Focus: Login, Logout, Signup, App.js, auth, mutations, queries, App
-    Support: README, Presentation, Trello
+    Focus: Login, Logout, App.js, auth, mutations, queries, App
+    Support: Research on APIs, Signup, README, Presentation, Trello
 
 Triana Deguzman: 
     
@@ -226,21 +242,22 @@ Triana Deguzman:
 Christen Lorber: 
 
     Focus: Overall theme and styling
-    Support: App, ChildForm, LoginForm, Navbar, SignupForm, Welcome, Profile
+    Support: App, Child Form, LoginForm, Navbar, Signup Form, Welcome, Profile
 
 Fernando Maldonado: 
     
     Focus: Welcome page
-    Support: 
+    Support: Research on APIs
 
 Heidi Wu: 
     
     Focus: Server Side
-    Support: Navbar, auth, mutations, queries
+    Support: Navbar, Auth, Mutations, Queries
 
 Team Collaboration:
     
     team pseudo coding, reviewing, presentation runs
+
 
 # Credits and Contributors 
 
